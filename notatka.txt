@@ -33,3 +33,41 @@ podział sieci ze względu na wielkość
 podział sieci ze względu na topologie. Topologia określa sposób łączenia poszczególnych urządzeń sieciowych.  Ma ona wpływ na koszty
 instalacji sieci, podatność na uszkodzenia, łatwość naprawy i możliwość rozbudowy.
 *Grafika*
+
+Temat: Media Transmisyjne 
+medium - inaczej nośnik, jest to element siecie, popezez który urządzenia komunikują sie ze sobą i wymieniają dane. Medium takim może być kabel
+miedziany, światłowody jak również fale radiowe.
+
+Podział mediów przewodowych: 
+   a) kable miedziane 
+     - kabel koncentryczny 
+        1. cienki
+        2. gruby
+     - kabel typu sktrętka 
+        1. UTP - niekranowana
+        2. FTP - ekranowana filiom
+        3. STP - ekranowane siatką
+   b) Kable światłowodowe
+     - Światłowód jednomodowy
+     - śiwatłowód wielomodowy
+Rdzeń w kablu koncentrycznym i skrętce jest miedzany, a w kablu światłowodowym mamy doczynienia z włóknem szklanym.
+W mediach miedzianym sygnałem przesyłowym był prąd elektrycznych, a w kablach światłowodowych sygnałem jest światło, najczęście podczerwone.
+
+Zalety Mediów miedzianych:
+ -Niski koszt zakupu
+ -Łatwe w montażu i instalacji
+ -Łatwość diagnozowania i naprawy usterek
+Wady Mediów miedzianych:
+ - Wrażliwość na zakłócenie elektromagnetyczne 
+ - Niewielka odległość pomiędzy węzłami sieci
+ - Mniejsza przepustowość w porównaniu do przepustowośći
+Zalety Mediów światłowodowych
+ - wysoka przepustowość
+ - transmisja na duże odległości
+ - znikoma wrażliwość na zakłócenia elektromagnetyczna
+Wady Mediów światłowodowych
+ - rozmycie sygnału
+ - Trudniejsze w instalacji
+ - drogi osprzęt sieciowy wykorzystujący światłowody 
+Wi-Fi wykorzystuje fale radiowe do transmisji danych
+Fale radiowe są promieniowaniem elekromagnetycznym z zakresem częstotliwości: 3Hz-3THz
