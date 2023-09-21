@@ -1,0 +1,35 @@
+temat: topologie siedzi
+Siecią komputerową nazywamy zespół tydzień ze sobą komputerów, serwerów, drukarek za pomocą mediów transmisyjnych za pomocą sieci. 
+Komunikacja w siecie jest możliwa dzięki odpowiednim protokołom.
+
+Praca w sieci komputerowej umożliwia:
+- Scentralizowanie administracji
+- Udostępnianie danych
+- Udotępnianie sprzętu i oprgoramowania
+
+z jednego dowolnego komputera w siecie można zarządzać i administrować wszystkimi urządzeniami połączonymi w sieci.
+
+komputery połączone w sieć mogą pełnić następujące role:
+-Serwer baz Danych
+-serwer poczty elektronicznej
+-serwer usług katalogowych
+-serwer stron www
+-serwer plików i drukarek
+-serwer faksów
+-klient
+
+podział siecie ze względu na funkcjonowanie
+- sieć peer-to-peer
+   Jest to przykład rozwiązania bez wydzielonego zarządzającego serwera. WWszystkie połączenia do siecie urządzeniea są traktowane jednakowo.
+-sieć typu klient-serwer
+   Jest rozwiązaniem z wydzielonym serwerem zarządzającym. Komputery użytkowników są administrowane, monitorowane i zarządzane centralnie.
+
+podział sieci ze względu na wielkość
+- LAN - obejmuje sosunkowo niewielki obszar i zwykle łączy urządzenia sieciowe w ramach jednego domu, biura, budynku.
+- MAN - jest siecią która łączy sieć LAN i urządzenia komputerowe w obreębie danego miasta.
+- WAN - jest siecią o zasięgu globalnym. Lączy ona sieci w obrębie dużych obszarów.
+- PAN - sieć prywatna.
+
+podział sieci ze względu na topologie. Topologia określa sposób łączenia poszczególnych urządzeń sieciowych.  Ma ona wpływ na koszty
+instalacji sieci, podatność na uszkodzenia, łatwość naprawy i możliwość rozbudowy.
+*Grafika*
