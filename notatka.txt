@@ -1,4 +1,4 @@
-temat: topologie siedzi
+temat: topologie sieci
 Siecią komputerową nazywamy zespół tydzień ze sobą komputerów, serwerów, drukarek za pomocą mediów transmisyjnych za pomocą sieci. 
 Komunikacja w siecie jest możliwa dzięki odpowiednim protokołom.
 
@@ -71,3 +71,38 @@ Wady Mediów światłowodowych
  - drogi osprzęt sieciowy wykorzystujący światłowody 
 Wi-Fi wykorzystuje fale radiowe do transmisji danych
 Fale radiowe są promieniowaniem elekromagnetycznym z zakresem częstotliwości: 3Hz-3THz
+
+kartkówka gr. A:
+1. co to jest topologia sieci
+   Topologia sieci komputerowej – model układu połączeń różnych elementów sieci komputerowej.
+2. co to jest sieć peer to peer
+   sieć peer-to-peer
+   Jest to przykład rozwiązania bez wydzielonego zarządzającego serwera. WWszystkie połączenia do siecie urządzeniea są traktowane jednakowo.
+3. Opisz sieć LAN
+   LAN - obejmuje sosunkowo niewielki obszar i zwykle łączy urządzenia sieciowe w ramach jednego domu, biura, budynku.
+4. Jaka to topologia 
+   (Rysunek)
+5. Co to jest topologia magistrali
+   Topologia magistrali topologia fizyczna sieci komputerowych charakteryzująca się tym, że wszystkie elementy sieci są podłączone do jednej magistrali.
+6. Zalety medium światłowodowych:
+ - Wysoka przepustowość
+ - Transmisja na duże odeległości
+ - Znikoma wrażliwość na zakłócenia elektryczne
+7. Typy kable miedzianych
+ - Kabel Koncentryczny
+ - Kabel typu skrętka
+kartkówka gr. B:
+1. (to samo co w gr. A)
+2. Co to sieć Klient serwer
+   sieć typu klient-serwer Jest rozwiązaniem z wydzielonym serwerem zarządzającym. Komputery użytkowników są administrowane, monitorowane i zarządzane centralnie.
+3. Opisz sieć MAN
+   MAN - jest siecią która łączy sieć LAN i urządzenia komputerowe w obreębie danego miasta.
+4. (to samo co w gr. A)
+5. (to samo co gr. A)
+6. Zalety medium miedzianych
+ -Niski koszt zakupu
+ -Łatwe w montażu i instalacji
+ -Łatwość diagnozowania i naprawy ustere
+7. Typy Kabli światłowodowych
+ - Światłowód jednomodowy
+ - śiwatłowód wielomodowy
