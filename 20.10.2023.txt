@@ -1,33 +1,57 @@
 T: Model TCP/IP 
 
-1. Po co nam modele
- - Określają reguły i zasady komunikacji
- - Umożliwiają współdziałanie urzdzeń i oprogramowania różnych producentów
- - Pozwalają zrozumieć proces komunikacji
- - Ułatwiają zarządzanie procesem komunikacji
-Zarządzanie procesem komunikacji w sieci, określanie reguł i zasad oraz możliwość współdziałania na poziomie sprzętowym i programowym produktów sieciowych, różnych firm, ale także kontrola poprawności komunikacji, to najwazniejsze korzyści wynikające z zastosowania modeli warstwowych 
+ 1. Po co nam modele
+  - Określają reguły i zasady komunikacji
+  - Umożliwiają współdziałanie urzdzeń i oprogramowania różnych producentów
+  - Pozwalają zrozumieć proces komunikacji
+  - Ułatwiają zarządzanie procesem komunikacji
+ Zarządzanie procesem komunikacji w sieci, określanie reguł i zasad oraz możliwość współdziałania na poziomie sprzętowym i programowym produktów sieciowych, różnych firm, ale także kontrola poprawności komunikacji, to najwazniejsze korzyści wynikające z zastosowania 
+ modeli warstwowych 
 
-2. Modele sieciowe
-- TCP/IP - określaney jako model protokołów. Każda z jego warstw wykonuje konkretne zadania, do realizacji których wykorzystuje się konkretne protokoły
-- Model OSI zwany modelem odniesienia stosowany jest raczej do analizy, która pozwala lepiej zrozumieć procesy komunikacji zachodzące w sieci.
+ 2. Modele sieciowe
+ - TCP/IP - określaney jako model protokołów. Każda z jego warstw wykonuje konkretne zadania, do realizacji których wykorzystuje się konkretne protokoły
+ - Model OSI zwany modelem odniesienia stosowany jest raczej do analizy, która pozwala lepiej zrozumieć procesy komunikacji zachodzące w sieci.
 
-3. TCP/IP i OSI
-  - OSi ma 7 warstw
-  - TCP/IP składa się z 4 warstw: Warstwa aplikacji, Warstwa transportowa, Internet, Warstwa dostępu do sieci
+ 3. TCP/IP i OSI
+   - OSi ma 7 warstw
+   - TCP/IP składa się z 4 warstw: Warstwa aplikacji, Warstwa transportowa, Internet, Warstwa dostępu do sieci
 
-4. TCP/IP
- -Warstwa aplikacji:
-   a) Główne zadanie: Umożliwia realizacje usług sieciowych.
+ 4. TCP/IP
+  -Warstwa aplikacji:
+    a) Główne zadanie: Umożliwia realizacje usług sieciowych.
    b) Przykładowe protokoły: HTTP, POP3, SMTp, FTP, DNS
- - Warstwa Transportu:
-   a) Główne zadanie: Na poziomie tej warstwy następuje przesyłania danych między urządzeniami i przekazywanie ihc do odpowiednich aplikcji.
-   b) Przykładowe protokoły: TCP/UCP
- - Warstwa Internetu:
-   a) Główne zadanie: Zapewnia dostarczenie informcji do urądzenia docelowego najefektywniejszą drogą oorzez sieć rozległą na podstawie adresów logicznych.
+  - Warstwa Transportu:
+    a) Główne zadanie: Na poziomie tej warstwy następuje przesyłania danych między urządzeniami i przekazywanie ihc do odpowiednich aplikcji.
+    b) Przykładowe protokoły: TCP/UCP
+  - Warstwa Internetu:
+    a) Główne zadanie: Zapewnia dostarczenie informcji do urądzenia docelowego najefektywniejszą drogą oorzez sieć rozległą na podstawie adresów logicznych.
    b) Przykładowe protokoły: IP, Protokoły routingu
- - Warstwa Dostępu do sieci:
-   a) Główne zadanie: Koduje dane i przekazuje do medium transmisyjnego
-   b) Przykładowe protokoły: Ethernet
+  - Warstwa Dostępu do sieci:
+    a) Główne zadanie: Koduje dane i przekazuje do medium transmisyjnego
+    b) Przykładowe protokoły: Ethernet
+
+ 5. 
+    a) Proces przesyłania danych od hosta źródłowego do docelowego polega na przeływie danych przez warstwy na urządzeniu źródłowym, potem następuje ich kodowanie i przesyłanie za pośrednictwem medium transmisyjnego do urządzenia docelowego w którym to proces jest 
+       odwracany i dane przechodzą w górę stosu. Informacje sterujące dodawane są w trzech warstwach: transportu(nr portu aplikacji), internetowej(adres IP hosta docelowego) i dostępu i sieci(adres MAC).
+       Kapsułkowanie - Przepływ danych przez warstwy na urządzeniu źródłowym, opatrywanie ich informacjami pozwalającymi zidentyfikować aplikacje i urządzenie docelowe to enkapsulacja. Natomiast proces odwrotny czyli przepływ danych w góre stosu i usuwanie tych 
+       dodatkowych informacji na hoscie docelowym to dekapsulacja.
+
+    b) Jednostki PDU to dan eprzesyłane przez sieć.
+       Warstwa: Aplikacji: komnikacja
+       Warstwa Transportowa: segment/datagram
+       warstwa internetowa: pakiet
+       warstwa dostępu do sieci: ramka
+ 6. Łącza synchroniczne i asynchroniczne to dwa różne rodzaje komunikacji danych, które różnią się sposobem, w jaki dane są przesyłane pomiędzy urządzeniami. Oto główne różnice między nimi:
+    a) Synchroniczne:
+      - W łączach synchronicznych dane są przesyłane w stałym, z góry określonym tempie zegarowym.
+      - Wymagają one dokładnego zsynchronizowania zegarów nadawcy i odbiorcy.
+      - Są bardziej skomplikowane w implementacji, ale umożliwiają szybsze przesyłanie danych w porównaniu z łączami asynchronicznymi.
+      - Są często stosowane do transmisji dużych ilości danych, takich jak transmisja danych wewnętrznych w komputerach, transfer danych w sieciach komórkowych itp.
+    b) Asynchroniczne: 
+      -W łączach asynchronicznych dane są przesyłane w nieustalonym tempie, bez względu na zegar.
+      -Nie wymagają dokładnego zsynchronizowania zegarów nadawcy i odbiorcy.
+      -Są prostsze w implementacji, ale przesyłają dane wolniej w porównaniu z łączami synchronicznymi.
+      -Są często stosowane do transmisji małych ilości danych, takich jak transmisja danych pomiędzy klawiaturą a komputerem, transmisja danych szeregowych między urządzeniami peryferyjnymi itp.
 
  cout << '⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠛⠛⠛⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⠛⠛⠛⠿⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿' << endl;
  cout << '⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⡀⠠⠤⠒⢂⣉⣉⣉⣑⣒⣒⠒⠒⠒⠒⠒⠒⠒⠀⠀⠐⠒⠚⠻⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿' << endl;
