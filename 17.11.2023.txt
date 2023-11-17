@@ -1,0 +1,3 @@
+T: Protokoły komunikacji sieciowej
+Dzięki portom możliwe jest przypisanie komunikacji konkretnym aplikacją realizującym usługi. Dzięki portom na tym samym urządzeniu możemy wyświetlać różne strony internetowy korzystając z tego samego protokołu
+T: powtórzenie wiadomości
